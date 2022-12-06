@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modified Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="text-center" style="color: white">Modified Caesar cipher</h1>
+      <br />
+      <h1 class="text-center" style="color: white">
+        Nehal Kubade<br />
+        Batch B1 ( 63 )<br /><br />
+        Aim: To implement Substitution Cipher technique
+        <br /><br />
+        Problem Statement: Implement Modified Caesar Cipher
+      </h1>
+    </header>
+    <div class="container">
+      <h1 class="text-center">Modified Caesar Cipher</h1>
+      <h2 class="subheader color-red">Encoding</h2>
+      <p>Enter a phrase and a key between 0-25 to cipher your message.</p>
+      <input id="userEncodeInput" class="user-input" type="text" />
+      <input id="cipherEncodeKey" type="number" min="0" max="25" value="0" />
+      <h1 class="cipher-output color-red" id="cipherEncodeOutput"></h1>
+      <hr />
+      <h2 class="subheader color-blue">Decoding</h2>
+      <p>Enter an encoded phrase and the key used to decipher your message.</p>
+      <input id="userDecodeInput" class="user-input" type="text" />
+      <input id="cipherDecodeKey" type="number" min="0" max="25" value="0" />
+      <h1 class="cipher-output color-blue" id="cipherDecodeOutput"></h1>
+    </div>
+     <a href="desc.html" style="text-decoration:none;font-size:6vh;margin-left:44%;">Procedure</a>
+    <script src="index.js"></script>
+  </body>
+</html>
